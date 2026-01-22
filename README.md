@@ -375,7 +375,7 @@ Information security controls:
 - A.12.6.1 - Management of technical vulnerabilities
 - A.13.1.3 - Segregation in networks
 
-- ### BIO2 (Baseline Informatiebeveiliging Overheid)
+### BIO2 (Baseline Informatiebeveiliging Overheid)
 Dutch government security baseline compliance:
 - 9.2 - User access management
 - 9.4 - Access control to systems and applications
@@ -495,6 +495,13 @@ For performance-sensitive workloads, consider:
 - Test backup restoration
 - Update hardening script
 
+## Support
+
+For issues or questions:
+1. Check `/var/log/debian13-hardening/` logs
+2. Review this README troubleshooting section
+3. Restore from backups if needed: `/root/hardening-backups-*/`
+
 ## License
 
 This script is provided as-is for educational and operational use. Modify as needed for your environment.
@@ -520,12 +527,6 @@ Developed by Securitypilot for enterprise-grade server security.
   - CIS, BIO2, ISO 27001 compliance
   - Comprehensive logging and validation
 
-## Support
-
-For issues or questions:
-1. Check `/var/log/debian13-hardening/` logs
-2. Review this README troubleshooting section
-3. Restore from backups if needed: `/root/hardening-backups-*/`
 
 ---
 
